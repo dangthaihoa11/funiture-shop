@@ -8,10 +8,9 @@
 if (Modernizr.touch === true && window.innerWidth <= 767) {
   //alert('Touch Screen');
 } else {
-
 }
 
-(function() {
+;(function () {
   'use strict'
 
   /* ==================================================
@@ -33,11 +32,9 @@ if (Modernizr.touch === true && window.innerWidth <= 767) {
     return scrollbarWidth
   }
 
-
   function init() {
     getBarwidth()
   }
 
   init()
-
 })()

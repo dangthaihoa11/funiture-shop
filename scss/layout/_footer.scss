@@ -1,3 +1,48 @@
 /* ==========================================================================
 Footer
 ========================================================================== */
+// footer {
+//   background-color: red;
+
+//   p {
+//     color: aqua;
+//   }
+//   &.abc {
+//     background-color: brown;
+//   }
+
+//   @include media-breakpoint-up(sm) {
+//     background-color: blue;
+
+//     p {
+//       color: black;
+//     }
+//     &.abc {
+//       background-color: bisque;
+//     }
+//   }
+// }
+
+// @include media-breakpoint-up(lg) {
+//   footer {
+//     background-color: blue;
+//     p {
+//       color: black;
+//     }
+//   }
+// }
+
+// header {
+//   button {
+//     display: none;
+//   }
+//   @include media-breakpoint-down(sm) {
+//     button {
+//       display: block;
+//       background-color: #fff;
+//       span {
+//         height: 1px;
+//       }
+//     }
+//   }
+// }
